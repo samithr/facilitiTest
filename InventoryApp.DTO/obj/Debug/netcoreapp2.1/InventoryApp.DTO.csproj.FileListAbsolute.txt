@@ -1,0 +1,17 @@
+F:\Test\InventoryApp\InventoryApp.DTO\bin\Debug\netcoreapp2.1\InventoryApp.DTO.deps.json
+F:\Test\InventoryApp\InventoryApp.DTO\bin\Debug\netcoreapp2.1\InventoryApp.DTO.dll
+F:\Test\InventoryApp\InventoryApp.DTO\bin\Debug\netcoreapp2.1\InventoryApp.DTO.pdb
+F:\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.csprojAssemblyReference.cache
+F:\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.csproj.CoreCompileInputs.cache
+F:\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.AssemblyInfoInputs.cache
+F:\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.AssemblyInfo.cs
+F:\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.dll
+F:\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.pdb
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.DTO\bin\Debug\netcoreapp2.1\InventoryApp.DTO.deps.json
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.DTO\bin\Debug\netcoreapp2.1\InventoryApp.DTO.dll
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.DTO\bin\Debug\netcoreapp2.1\InventoryApp.DTO.pdb
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.AssemblyInfo.cs
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.dll
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.DTO\obj\Debug\netcoreapp2.1\InventoryApp.DTO.pdb

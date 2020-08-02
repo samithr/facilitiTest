@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.Database\bin\Debug\netcoreapp3.1\InventoryApp.Database.deps.json
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.Database\bin\Debug\netcoreapp3.1\InventoryApp.Database.dll
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.Database\obj\Debug\netcoreapp3.1\InventoryApp.Database.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.Database\obj\Debug\netcoreapp3.1\InventoryApp.Database.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Test\InventoryApp\InventoryApp.Database\obj\Debug\netcoreapp3.1\InventoryApp.Database.AssemblyInfo.cs

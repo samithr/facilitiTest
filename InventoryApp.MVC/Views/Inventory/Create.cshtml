@@ -1,0 +1,79 @@
+﻿@page
+@model InventoryApp.DTO.InventoryDTO
+@Html.AntiForgeryToken()
+
+@using (Html.BeginForm("CreateOrUpdate", "Inventory", FormMethod.Post, new { @id = "newInventoryFrm" }))
+{
+    <div class="row">
+        <div class="col-md-6">
+            <div class=" row">
+                <div class="card">
+                    @Html.HiddenFor(model => model.Id)
+                </div>
+            </div>
+            <div class=" row">
+                <div class="card">
+                    @Html.LabelFor(model => model.Name)
+                </div>
+                <div class="list-group-item-info">
+                    @Html.TextAreaFor(model => model.Name)
+                </div>
+                <div class="list-group-item-info">
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class=" row">
+                <div class="card">
+                    @Html.LabelFor(model => model.Description)
+                </div>
+                <div class="list-group-item-info">
+                    @Html.TextAreaFor(model => model.Description)
+                </div>
+                <div class="list-group-item-info">
+                    @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class=" row">
+                <div class="card">
+                    @Html.LabelFor(model => model.AvailableUnits)
+                </div>
+                <div class="list-group-item-info">
+                    @Html.TextBoxFor(model => model.AvailableUnits, Enumerable.Range(1, 100).Select(i => new SelectListItem { Text = i.ToString(), Value = i.ToString() }))
+                </div>
+                <div class="list-group-item-info">
+                    @Html.ValidationMessageFor(model => model.AvailableUnits, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class=" row">
+                <div class="card">
+                    @Html.LabelFor(model => model.ReOrderLevel)
+                </div>
+                <div class="list-group-item-info">
+                    @Html.TextBoxFor(model => model.ReOrderLevel, Enumerable.Range(1, 10).Select(i => new SelectListItem { Text = i.ToString(), Value = i.ToString() }))
+                </div>
+                <div class="list-group-item-info">
+                    @Html.ValidationMessageFor(model => model.ReOrderLevel, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class=" row">
+                <div class="card">
+                    @Html.LabelFor(model => model.UnitPrice)
+                </div>
+                <div class="list-group-item-info">
+                    @Html.TextBoxFor(model => model.UnitPrice, Enumerable.Range(1, 10000).Select(i => new SelectListItem { Text = i.ToString(), Value = i.ToString() }))
+                </div>
+                <div class="list-group-item-info">
+                    @Html.ValidationMessageFor(model => model.UnitPrice, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <br />
+            <div class="btn rounded">
+                <button type="submit"> Save</button>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
